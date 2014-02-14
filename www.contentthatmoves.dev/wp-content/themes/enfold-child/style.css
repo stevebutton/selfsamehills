@@ -1,0 +1,600 @@
+/* this is the custom css for enfold-child. Specific to faitesduyoga;com. all mods stevebutton */
+
+/* General Custom CSS */
+
+
+
+
+/*
+Desktop Styles
+================================================== */
+/* Note: Add new css to the media query below that you want to only effect the desktop view of your site */
+Template: enfold
+@media only screen and (min-width: 768px) {
+  /* Add your Desktop Styles here */
+}
+
+
+
+/*
+Mobile Styles
+================================================== */
+/* Note: Add new css to the media query below that you want to only effect the Mobile and Tablet Portrait view */
+
+@media only screen and (max-width: 767px) {
+  /* Add your Mobile Styles here */
+
+}
+
+/*
+Test for floating menu
+================================================== */
+/* Note: Add new css to the media query below that you want to only effect the Mobile and Tablet Portrait view */
+
+/*#videomenu {
+position: fixed;
+width: 400px;
+height: 400px;
+z-index: 1000;
+top: 300px;
+left: 400px;
+background-image:url('http://faitesduyoga.com/gfx/tag.png');
+border-top-style: solid;
+border-top-width: 0px;
+}*/
+
+/* Note: control avia form button */
+.avia_ajax_form .button {
+margin: 0;
+padding: 16px 50px;
+border-radius: 50px;
+border-bottom-width: 1px;
+border-bottom-style: solid;
+font-weight: normal;
+font-size: 16px;
+}
+
+/* Note: hides the default scroll to top button */
+#scroll-top-link.avia_pop_class {
+opacity: 0.7;
+visibility: hidden;
+}
+
+
+/* Note: sets the green overlay button on galleries */
+
+.image-overlay.overlay-type-extern .image-overlay-inside:before{content:url(/gfx/btn_overlay.png)!important;}
+.image-overlay.overlay-type-video .image-overlay-inside:before{content:url(/gfx/btn_overlay.png)!important;}
+
+.portfolio-preview-title {
+display: none;
+font-size: 22px;
+}
+
+/* Note: reset for inside AJAX */
+.portfolio-preview-image {
+width: 66.6%;
+display: none;
+}
+.portfolio-preview-content {
+width: 100%;
+padding: 20px 30px 30px 30px;
+}
+
+.grid-entry-title {
+font-size: 18px;
+margin: 0;
+padding: 0;
+font-weight: 700;
+}
+
+/* Note: test CSS for button effect inside Layerslide */
+#btn_wrap{
+  width: 100%;
+  height:110px;
+  margin:auto;
+  font-size: 0;
+}
+
+#logo_stack {
+display: inline-block;
+float: right;
+position: relative;
+top: 50px;
+margin-left: 10px;
+cursor: pointer;
+width: 600px;
+height: 75px;
+background: url("/gfx/fdylogobigreverse.png") no-repeat 0 0;
+}
+
+#logo_stack_g {
+display: inline-block;
+float: right;
+position: relative;
+top: 50px;
+margin-left: 10px;
+cursor: pointer;
+width: 600px;
+height: 75px;
+background: url("/gfx/fdylogobiggreen.png") no-repeat 0 0;
+}
+#btn_home
+{
+  display: inline-block;
+  float: left;
+  position:relative;
+  top:0px;
+  cursor: pointer;
+    width: 120px;
+  height: 105px;
+  background: url("/gfx/btn_home.png") no-repeat 0 0;
+
+}
+
+#btn_home:hover
+{ 
+  background-position: 0 -105px;
+}
+
+#btn_home span
+{
+  position: absolute;
+  top: -999em;
+}
+
+#btn_essayez
+{
+   display: inline-block;
+  float:left;
+  position:relative;
+  top:0px;
+  cursor: pointer;
+  width: 160px;
+  height: 140px;
+  background: url("/gfx/btn_essayez.png") no-repeat 0 0;
+
+}
+
+#btn_essayez:hover
+{ 
+  background-position: 0 -140px;
+}
+
+#btn_essayez span
+{
+  position: absolute;
+  top: -999em;
+}
+
+#btn_essayez_b
+{
+    display: inline-block;
+  float: left;
+  position:relative;
+  top:0px;
+  width: 120px;
+  height: 105px;  background: url("/gfx/btn_essayez_b.png") no-repeat 0 0;
+
+}
+
+#btn_essayez_b:hover
+{ 
+  background-position: 0 -105px;
+}
+
+#btn_essayez_b span
+{
+  position: absolute;
+  top: -999em;
+}
+
+#btn_inscrivez
+{
+   display: inline-block;
+  float:left;
+  cursor: pointer;
+  width: 160px;
+  height: 140px;
+  background: url("/gfx/btn_inscrivez.png") no-repeat 0 0;
+
+}
+
+#btn_inscrivez:hover
+{ 
+  background-position: 0 -140px;
+}
+
+#btn_inscrivez span
+{
+  position: absolute;
+  top: -999em;
+}
+
+#btn_inscrivez_b
+{
+    display: inline-block;
+  float: left;
+  position:relative;
+  top:0px;
+  width: 120px;
+  height: 105px;
+  background: url("/gfx/btn_inscrivez_b.png") no-repeat 0 0;
+
+}
+
+#btn_inscrivez_b:hover
+{ 
+  background-position: 0 -105px;
+}
+
+#btn_inscrivez_b span
+{
+  position: absolute;
+  top: -999em;
+}
+
+#btn_fb
+{
+  display: inline-block;
+  float: left;
+  position:relative;
+  top:0px;
+  cursor: pointer;
+   width: 120px;
+  height: 105px;
+  background: url("/gfx/btn_fb.png") no-repeat 0 0;
+
+}
+
+#btn_fb:hover
+{ 
+  background-position: 0 -105px;
+}
+
+#btn_fb span
+{
+  position: absolute;
+  top: -999em;
+}
+
+#btn_1
+{
+  display: block;
+  cursor: pointer;
+  width: 160px;
+  height: 50px;
+  background: url("/gfx/btn1.png") no-repeat 0 0;
+
+}
+
+#btn_1:hover
+{ 
+  background-position: 0 -50px;
+}
+
+#btn_1 span
+{
+  position: absolute;
+  top: -999em;
+}
+
+#btn_2
+{
+  display: block;
+  cursor: pointer;
+  width: 160px;
+  height: 50px;
+  background: url("/gfx/btn2.png") no-repeat 0 0;
+
+}
+
+#btn_2:hover
+{ 
+  background-position: 0 -50px;
+}
+
+#btn_2 span
+{
+  position: absolute;
+  top: -999em;
+}
+
+#btn_3
+{
+  display: block;
+  cursor: pointer;
+  width: 160px;
+  height: 50px;
+  background: url("/gfx/btn3.png") no-repeat 0 0;
+
+}
+
+#btn_3:hover
+{ 
+  background-position: 0 -50px;
+}
+
+#btn_3 span
+{
+  position: absolute;
+  top: -999em;
+}
+/* End: test CSS for button effect inside Layerslide */
+
+#header_main .container, .main_menu ul:first-child > li a {
+height: 100px;
+line-height: 100px;
+}
+.logo img{
+padding:5px 0;
+display: block;
+width: 340px;
+height: auto;
+max-height: 100%;
+height : 100%\9; /*hack: fixes ie8 logo*/
+height: auto\9; /*hack: fixes ie8 squished logo*/
+}
+
+.content, .sidebar {
+padding-top: 0px;
+padding-bottom: 50px;
+-webkit-box-sizing: content-box;
+-moz-box-sizing: content-box;
+box-sizing: content-box;
+min-height: 1px;
+z-index: 1;
+}
+
+.container_wrap {
+clear: both;
+position: relative;
+z-index: 1;
+border-top-style: solid;
+border-top-width: 0px;
+}
+
+.content, .sidebar {
+padding-top: 10px;
+padding-bottom: 20px;
+-webkit-box-sizing: content-box;
+-moz-box-sizing: content-box;
+box-sizing: content-box;
+min-height: 1px;
+z-index: 1;
+}
+
+
+
+<!--_________________________________________________-->
+h1 {
+font-size: 28px !important;
+line-height: 1.1em;
+margin-bottom: 14px;
+}
+
+h4 {
+font-size: 17px;
+line-height: 1.6em;
+margin-bottom: 4px;
+}
+h2 {
+font-size: 22px;
+line-height: 1.6em;
+color: #000000 !important;
+margin-bottom: 10px !important;
+margin-top: 30px !important;
+}
+.image-overlay {
+position: absolute;
+background: none;
+z-index: 500 !important;
+}
+
+table {
+width: 100%;
+padding: 0;
+margin: 0 0 20px 0;
+font-size: 13px;
+background-color: transparent !important;
+}
+.main_color tr:nth-child(odd), .main_color .pricing-table>li:nth-child(odd), .main_color .pricing-extra {
+background: transparent !important;
+}
+table {
+border-collapse: separate;
+border-spacing: 0px;
+border-color: none;
+}
+
+.main_color .iconlist_content {
+color: #ffffff !important;
+}
+/*.avia_textblock p {
+color: #ffffff !important;
+clear: both;
+}*/
+.home #souscrire {
+z-index: 0;
+}
+.home #essai {
+z-index: 0;
+}
+.home #avdjsavplus {
+z-index: 0;
+}
+.home #andjsavplus {
+z-index: 0;
+}
+/*IMPORTANT//////CHANGE TO COLOR SECTION HEIGHTS*/
+/*IMPORTANT//////CHANGE TO CORRECT PAGE ID*/
+#av_section_1 {
+z-index: 0;
+height: 400px;
+}
+#av_section_2 {
+z-index: 0;
+height: 400px;
+}
+
+#av_section_3 {
+z-index: 0;
+height: 400px;
+}
+#av_section_4 {
+z-index: 0;
+height: 400px;
+}
+#av_section_5 {
+z-index: 0;
+height: 400px;
+}
+
+#av_section_6 {
+z-index: 0;
+height: 600px;
+}
+
+#av_section_7 {
+z-index: 0;
+height: 400px;
+}
+.page #colorsection2 {
+z-index: 0;
+height: 600px;
+}
+
+.page #colorsection3 {
+z-index: 0;
+height: 450px;
+}
+
+.page #colorsection4 {
+z-index: 0;
+height: 500px;
+}
+
+
+.homepage-version-3 #avdjsavplus {
+z-index: 0;
+}
+
+.avia-section {
+min-height: 2px;
+}
+
+/*///FLOATING NAV///////*/
+
+#scroll-top-link {
+position: fixed;
+border-radius: 2px;
+height: 70px;
+width: 50px;
+line-height: 50px;
+text-decoration: none;
+text-align: center;
+opacity: 0;
+right: 170px;
+top: 580px;
+z-index: 10000;
+/*visibility: hidden;*/
+}
+
+#scroll-essayez-link {
+position: fixed;
+border-radius: 2px;
+height: 70px;
+width: 180px;
+line-height: 50px;
+text-decoration: none;
+text-align: center;
+opacity: 0;
+right: 420px;
+top: 580px;
+z-index: 10000;
+opacity: 0.7;
+visibility: visible;
+}
+
+#scroll-inscrivez-link {
+position: fixed;
+border-radius: 2px;
+height: 70px;
+width: 180px;
+line-height: 50px;
+text-decoration: none;
+text-align: center;
+opacity: 0;
+right: 230px;
+top: 580px;
+z-index: 10000;
+opacity: 0.7;
+visibility: visible;
+}
+#scroll-top-link {
+color: #eeeeee;
+border: 1px solid #444444;
+background-color: #333333;
+}
+#scroll-essayez-link {
+color: #eeeeee;
+border: 1px solid #444444;
+background-color: #333333;
+}
+
+#scroll-inscrivez-link {
+color: #eeeeee;
+border: 1px solid #444444;
+background-color: #333333;
+}
+
+#top .ls-nav-prev {
+font-family: 'entypo-fontello';
+display: block;
+text-decoration: none;
+color: #fff;
+position: absolute;
+width: 60px;
+text-align: center;
+height: 60px;
+line-height: 62px;
+font-size: 25px;
+top: 50%;
+margin: -30px 15px 0;
+background: transparent;
+color: #fff;
+visibility: hidden;
+opacity: 0.5;
+z-index: 10000;
+left: 30px;
+}
+#top .ls-nav-next {
+font-family: 'entypo-fontello';
+display: block;
+text-decoration: none;
+color: #fff;
+position: absolute;
+width: 60px;
+text-align: center;
+height: 60px;
+line-height: 62px;
+font-size: 25px;
+top: 50%;
+margin: -30px 15px 0;
+background: transparent;
+color: #fff;
+visibility: hidden;
+opacity: 0.5;
+z-index: 10000;
+right: 30px;
+}
+
+/*this comes from base.css and controls the circular rollover icon*/
+
+.image-overlay{position: absolute; background: #CCCCCC; z-index: 500; height:100%; width:100%; opacity: 0; filter:alpha(opacity=0);}
+	.image-overlay .image-overlay-inside{height:100%; width:100%; position: absolute; left:0; top:0;}
+	.image-overlay .image-overlay-inside:before{position: absolute; border-radius: 50px; background: #000; height:80px; width:80px; line-height:80px; left:50%; top:50%; margin: -40px 0 0 -40px; z-index: 500; text-align: center; color:#fff;}
+	.image-overlay .image-overlay-inside:before{content:"\E869"; font-family: 'entypo-fontello'; font-size: 18px; font-weight: normal; }
+	.image-overlay.overlay-type-extern .image-overlay-inside:before{content:"\E832";}
+	.image-overlay.overlay-type-video .image-overlay-inside:before{content:"\E897";}
+	#top .hide-inner-overlay .image-overlay-inside{display: none;}
